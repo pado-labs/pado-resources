@@ -5,8 +5,8 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "AssetsProof": {
-        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/token_holdings/token-holdings.jsonld#AssetsProof",
+      "TokenHoldings": {
+        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/token_holdings/token-holdings.jsonld#TokenHoldings",
         "@context": {
           "@version": 1.1,
           "@protected": true,
