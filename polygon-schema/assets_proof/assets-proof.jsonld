@@ -1,0 +1,49 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "AssetsProof": {
+        "@id": "https://raw.githubusercontent.com/0xPolygonID/tutorial-examples/main/credential-schema/proof-of-dao-longevity.jsonld#ProofOfDaoLongevity",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/0xPolygonID/tutorial-examples/blob/main/credential-schema/proof-of-dao-longevity-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "source": {
+            "@id": "vocab:source",
+            "@type": "xsd:string"
+          },
+          "sourceUserIdHash":{
+            "@id":"vocab:sourceUserIdHash",
+            "@type": "xsd:string"
+          },
+          "authUserIdHash":{
+            "@id":"vocab:authUserIdHash",
+            "@type": "xsd:string"
+          },
+          "receipt":{
+            "@id":"vocab:receipt",
+            "@type": "xsd:string"
+          },
+          "getDataTime":{
+            "@id":"vocab:getDataTime",
+            "@type": "xsd:dateTime"
+          },
+          "baseValue":{
+            "@id":"vocab:baseValue",
+            "@type": "xsd:string"
+          },
+          "balanceGreaterThanBaseValue":{
+            "@id":"vocab:balanceGreaterThanBaseValue",
+            "@type": "xsd:boolean"
+          }
+        }
+      }
+    }
+  ]
+}
