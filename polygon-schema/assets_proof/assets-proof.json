@@ -109,7 +109,6 @@
         "source",
         "authUserIdHash",
         "receipt",
-        "getDataTime",
         "baseValue",
         "balanceGreaterThanBaseValue"
       ],
