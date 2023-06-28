@@ -1,0 +1,53 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "AssetsProof": {
+        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/token_holdings/token-holdings.jsonld#AssetsProof",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/token_holdings/token-holdings-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "source": {
+            "@id": "vocab:source",
+            "@type": "xsd:string"
+          },
+          "sourceUserId":{
+            "@id":"vocab:sourceUserId",
+            "@type": "xsd:string"
+          },
+          "authUserId":{
+            "@id":"vocab:authUserId",
+            "@type": "xsd:string"
+          },
+          "receipt":{
+            "@id":"vocab:receipt",
+            "@type": "xsd:string"
+          },
+          "getDataTime":{
+            "@id":"vocab:getDataTime",
+            "@type": "xsd:dateTime"
+          },
+          "baseValue":{
+            "@id":"vocab:baseValue",
+            "@type": "xsd:string"
+          },
+          "asset":{
+            "@id":"vocab:asset",
+            "@type": "xsd:string"
+          },
+          "balanceGreaterThanBaseValue":{
+            "@id":"vocab:balanceGreaterThanBaseValue",
+            "@type": "xsd:boolean"
+          }
+        }
+      }
+    }
+  ]
+}
