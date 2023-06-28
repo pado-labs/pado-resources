@@ -32,7 +32,7 @@
           },
           "getDataTime":{
             "@id":"vocab:getDataTime",
-            "@type": "xsd:dateTime"
+            "@type": "xsd:string"
           },
           "baseValue":{
             "@id":"vocab:baseValue",
