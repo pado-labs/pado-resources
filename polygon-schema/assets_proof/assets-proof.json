@@ -107,7 +107,7 @@
       "required": [
         "id",
         "source",
-        "authUserIdHash",
+        "authUserId",
         "receipt",
         "getDataTime",
         "baseValue",
@@ -119,10 +119,10 @@
           "type": "string",
           "format": "uri"
         },
-        "sourceUserIdHash": {
+        "sourceUserId": {
           "type": "string"
         },
-        "authUserIdHash": {
+        "authUserId": {
           "type": "string"
         },
         "receipt": {

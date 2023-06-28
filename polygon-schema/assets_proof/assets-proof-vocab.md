@@ -4,16 +4,16 @@ which exchange data from
 "source":"binance"
 ```
 
-# sourceUserIdHash
+# sourceUserId
 user-id from data source
 ```text
-"sourceUserIdHash":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
+"sourceUserId":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
 ```
 
-# authUserIdHash
+# authUserId
 user-id in pado
 ```text
-"authUserIdHash":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
+"authUserId":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
 ```
 
 # receipt
