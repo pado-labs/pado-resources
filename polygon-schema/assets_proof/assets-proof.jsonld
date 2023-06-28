@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "AssetsProof": {
-        "@id": "https://raw.githubusercontent.com/0xPolygonID/tutorial-examples/main/credential-schema/proof-of-dao-longevity.jsonld#ProofOfDaoLongevity",
+        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/assets_proof/assets-proof.jsonld#AssetsProof",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://github.com/0xPolygonID/tutorial-examples/blob/main/credential-schema/proof-of-dao-longevity-vocab.md#",
+          "vocab": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/assets_proof/assets-proof-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "source": {
             "@id": "vocab:source",
