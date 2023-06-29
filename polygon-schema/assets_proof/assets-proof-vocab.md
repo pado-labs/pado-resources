@@ -16,10 +16,10 @@ user-id in pado
 "authUserId":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
 ```
 
-# receipt
+# recipient
 user wallet address
 ```text
-"receipt":"0x376802bc6fa533dd520f0ef2b6aC469302A09cBb"
+"recipient":"0x376802bc6fa533dd520f0ef2b6aC469302A09cBb"
 ```
 
 # getDataTime

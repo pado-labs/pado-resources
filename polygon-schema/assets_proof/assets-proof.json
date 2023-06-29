@@ -108,7 +108,7 @@
         "id",
         "source",
         "authUserId",
-        "receipt",
+        "recipient",
         "getDataTime",
         "baseValue",
         "balanceGreaterThanBaseValue"
@@ -125,7 +125,7 @@
         "authUserId": {
           "type": "string"
         },
-        "receipt": {
+        "recipient": {
           "type": "string"
         },
         "getDataTime": {
