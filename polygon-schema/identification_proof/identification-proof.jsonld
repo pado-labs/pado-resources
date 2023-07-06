@@ -1,0 +1,45 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "IdentificationProof": {
+        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification-proof/identification-proof.jsonld#IdentificationProof",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification-proof/identification-proof-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "source": {
+            "@id": "vocab:source",
+            "@type": "xsd:string"
+          },
+          "type":{
+            "@id":"vocab:type",
+            "@type": "xsd:string"
+          },
+          "authUseridHash":{
+            "@id":"vocab:authUseridHash",
+            "@type": "xsd:string"
+          },
+          "recipient":{
+            "@id":"vocab:recipient",
+            "@type": "xsd:string"
+          },
+          "timestamp":{
+            "@id":"vocab:timestamp",
+            "@type": "xsd:dateTime"
+          },
+          "result":{
+            "@id":"vocab:result",
+            "@type": "xsd:boolean"
+          }
+        }
+      }
+    }
+  ]
+}
