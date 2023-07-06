@@ -18,8 +18,8 @@
             "@id": "vocab:source",
             "@type": "xsd:string"
           },
-          "proofType":{
-            "@id":"vocab:proofType",
+          "credentialType":{
+            "@id":"vocab:credentialType",
             "@type": "xsd:string"
           },
           "authUseridHash":{
