@@ -107,7 +107,7 @@
       "required": [
         "id",
         "source",
-        "proofType",
+        "type",
         "authUseridHash",
         "recipient",
         "timestamp",
@@ -122,7 +122,7 @@
         "source": {
           "type": "string"
         },
-        "proofType": {
+        "type": {
           "type": "string"
         },
         "authUseridHash": {
