@@ -26,7 +26,7 @@ recipient address
 
 get data time
 ```text
-"getDataTime":1686885963449
+"timestamp":1686885963449
 ```
 
 # result
