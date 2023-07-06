@@ -4,10 +4,10 @@ which exchange data from
 "source":"Ant"
 ```
 
-# type
+# proofType
 Proof Type
 ```text
-"type":"TestType"
+"proofType":"TestType"
 ```
 
 # authUseridHash
