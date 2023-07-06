@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "IdentificationProof": {
-        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification-proof/identification-proof.jsonld#IdentificationProof",
+        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification_proof/identification-proof.jsonld#IdentificationProof",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification-proof/identification-proof-vocab.md#",
+          "vocab": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification_proof/identification-proof-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "source": {
             "@id": "vocab:source",

@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification-proof/identification-proof.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification-proof/identification-proof.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification_proof/identification-proof.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/identification_proof/identification-proof.json"
     }
   },
   "required": [
