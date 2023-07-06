@@ -107,7 +107,6 @@
       "required": [
         "id",
         "source",
-        "type",
         "authUseridHash",
         "recipient",
         "timestamp",
