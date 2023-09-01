@@ -1,0 +1,53 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "SocialProof": {
+        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/social_proof/social-proof.jsonld#SocialProof",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/social_proof/social-proof-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "source": {
+            "@id": "vocab:source",
+            "@type": "xsd:string"
+          },
+          "sourceUserId":{
+            "@id":"vocab:sourceUserId",
+            "@type": "xsd:string"
+          },
+          "authUserId":{
+            "@id":"vocab:authUserId",
+            "@type": "xsd:string"
+          },
+          "recipient":{
+            "@id":"vocab:recipient",
+            "@type": "xsd:string"
+          },
+          "getDataTime":{
+            "@id":"vocab:getDataTime",
+            "@type": "xsd:dateTime"
+          },
+          "followers":{
+            "@id":"vocab:followers",
+            "@type": "xsd:string"
+          },
+          "sourceCreateTime":{
+            "@id":"vocab:sourceCreateTime",
+            "@type": "xsd:dateTime"
+          },
+          "sourceIncome":{
+            "@id":"vocab:sourceIncome",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
