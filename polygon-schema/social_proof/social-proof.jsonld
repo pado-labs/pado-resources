@@ -18,12 +18,12 @@
             "@id": "vocab:source",
             "@type": "xsd:string"
           },
-          "sourceUserId":{
-            "@id":"vocab:sourceUserId",
+          "sourceUserid":{
+            "@id":"vocab:sourceUserid",
             "@type": "xsd:string"
           },
-          "authUserId":{
-            "@id":"vocab:authUserId",
+          "authUserid":{
+            "@id":"vocab:authUserid",
             "@type": "xsd:string"
           },
           "recipient":{

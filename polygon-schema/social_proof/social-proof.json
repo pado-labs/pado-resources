@@ -107,8 +107,8 @@
       "required": [
         "id",
         "source",
-        "sourceUserId",
-        "authUserId",
+        "sourceUserid",
+        "authUserid",
         "recipient",
         "getDataTime",
         "followers",
@@ -120,10 +120,10 @@
           "type": "string",
           "format": "uri"
         },
-        "sourceUserId": {
+        "sourceUserid": {
           "type": "string"
         },
-        "authUserId": {
+        "authUserid": {
           "type": "string"
         },
         "recipient": {

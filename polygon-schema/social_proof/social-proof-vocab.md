@@ -4,16 +4,16 @@ which source data from
 "source":"twitter"
 ```
 
-# sourceUserId
+# sourceUserid
 user-id from data source
 ```text
-"sourceUserId":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
+"sourceUserid":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
 ```
 
 # authUserid
 user-id in pado
 ```text
-"authUserId":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
+"authUserid":"0x037cd8242e5fc75581f6845aff05b40991f19e1a620c68401b1cdec44149e460"
 ```
 
 # recipient
