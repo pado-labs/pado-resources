@@ -45,7 +45,7 @@
           "UserIdHash":{
             "@id":"vocab:UserIdHash",
             "@type": "xsd:string"
-          },
+          }
         }
       }
     }
