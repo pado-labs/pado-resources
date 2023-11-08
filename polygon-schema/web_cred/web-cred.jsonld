@@ -1,0 +1,53 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "WebCred": {
+        "@id": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/web_cred/web-cred.jsonld#WebCred",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/pado-labs/pado-resources/main/polygon-schema/web_cred/web-cred-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "ProofType": {
+            "@id": "vocab:ProofType",
+            "@type": "xsd:string"
+          },
+          "Source":{
+            "@id":"vocab:Source",
+            "@type": "xsd:string"
+          },
+          "Content":{
+            "@id":"vocab:Content",
+            "@type": "xsd:string"
+          },
+          "Condition":{
+            "@id":"vocab:Condition",
+            "@type": "xsd:string"
+          },
+          "SourceUserIdHash":{
+            "@id":"vocab:SourceUserIdHash",
+            "@type": "xsd:string"
+          },
+          "Result":{
+            "@id":"vocab:Result",
+            "@type": "xsd:boolean"
+          },
+          "Timestamp":{
+            "@id":"vocab:Timestamp",
+            "@type": "xsd:dateTime"
+          },
+          "UserIdHash":{
+            "@id":"vocab:UserIdHash",
+            "@type": "xsd:string"
+          },
+        }
+      }
+    }
+  ]
+}
